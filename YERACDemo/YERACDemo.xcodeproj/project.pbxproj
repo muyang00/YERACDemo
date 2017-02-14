@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B49569DF1E52A02B006BE5ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B49569DE1E52A02B006BE5ED /* main.m */; };
+		B49569E21E52A02B006BE5ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B49569E11E52A02B006BE5ED /* AppDelegate.m */; };
+		B49569E51E52A02B006BE5ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49569E41E52A02B006BE5ED /* ViewController.m */; };
+		B49569E81E52A02B006BE5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49569E61E52A02B006BE5ED /* Main.storyboard */; };
+		B49569EB1E52A02B006BE5ED /* YERACDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B49569E91E52A02B006BE5ED /* YERACDemo.xcdatamodeld */; };
+		B49569ED1E52A02B006BE5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49569EC1E52A02B006BE5ED /* Assets.xcassets */; };
+		B49569F01E52A02B006BE5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49569EE1E52A02B006BE5ED /* LaunchScreen.storyboard */; };
+		B49569FB1E52A02B006BE5ED /* YERACDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B49569FA1E52A02B006BE5ED /* YERACDemoTests.m */; };
+		B4956A061E52A02B006BE5ED /* YERACDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4956A051E52A02B006BE5ED /* YERACDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B49569F71E52A02B006BE5ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49569D21E52A02B006BE5ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B49569D91E52A02B006BE5ED;
+			remoteInfo = YERACDemo;
+		};
+		B4956A021E52A02B006BE5ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49569D21E52A02B006BE5ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B49569D91E52A02B006BE5ED;
+			remoteInfo = YERACDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B49569DA1E52A02B006BE5ED /* YERACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YERACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49569DE1E52A02B006BE5ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B49569E01E52A02B006BE5ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B49569E11E52A02B006BE5ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B49569E31E52A02B006BE5ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B49569E41E52A02B006BE5ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B49569E71E52A02B006BE5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B49569EA1E52A02B006BE5ED /* YERACDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YERACDemo.xcdatamodel; sourceTree = "<group>"; };
+		B49569EC1E52A02B006BE5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B49569EF1E52A02B006BE5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B49569F11E52A02B006BE5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49569F61E52A02B006BE5ED /* YERACDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YERACDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49569FA1E52A02B006BE5ED /* YERACDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YERACDemoTests.m; sourceTree = "<group>"; };
+		B49569FC1E52A02B006BE5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4956A011E52A02B006BE5ED /* YERACDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YERACDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4956A051E52A02B006BE5ED /* YERACDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YERACDemoUITests.m; sourceTree = "<group>"; };
+		B4956A071E52A02B006BE5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B49569D71E52A02B006BE5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49569F31E52A02B006BE5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49569FE1E52A02B006BE5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B49569D11E52A02B006BE5ED = {
+			isa = PBXGroup;
+			children = (
+				B49569DC1E52A02B006BE5ED /* YERACDemo */,
+				B49569F91E52A02B006BE5ED /* YERACDemoTests */,
+				B4956A041E52A02B006BE5ED /* YERACDemoUITests */,
+				B49569DB1E52A02B006BE5ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B49569DB1E52A02B006BE5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B49569DA1E52A02B006BE5ED /* YERACDemo.app */,
+				B49569F61E52A02B006BE5ED /* YERACDemoTests.xctest */,
+				B4956A011E52A02B006BE5ED /* YERACDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B49569DC1E52A02B006BE5ED /* YERACDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B49569E01E52A02B006BE5ED /* AppDelegate.h */,
+				B49569E11E52A02B006BE5ED /* AppDelegate.m */,
+				B49569E31E52A02B006BE5ED /* ViewController.h */,
+				B49569E41E52A02B006BE5ED /* ViewController.m */,
+				B49569E61E52A02B006BE5ED /* Main.storyboard */,
+				B49569EC1E52A02B006BE5ED /* Assets.xcassets */,
+				B49569EE1E52A02B006BE5ED /* LaunchScreen.storyboard */,
+				B49569F11E52A02B006BE5ED /* Info.plist */,
+				B49569E91E52A02B006BE5ED /* YERACDemo.xcdatamodeld */,
+				B49569DD1E52A02B006BE5ED /* Supporting Files */,
+			);
+			path = YERACDemo;
+			sourceTree = "<group>";
+		};
+		B49569DD1E52A02B006BE5ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B49569DE1E52A02B006BE5ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B49569F91E52A02B006BE5ED /* YERACDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B49569FA1E52A02B006BE5ED /* YERACDemoTests.m */,
+				B49569FC1E52A02B006BE5ED /* Info.plist */,
+			);
+			path = YERACDemoTests;
+			sourceTree = "<group>";
+		};
+		B4956A041E52A02B006BE5ED /* YERACDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4956A051E52A02B006BE5ED /* YERACDemoUITests.m */,
+				B4956A071E52A02B006BE5ED /* Info.plist */,
+			);
+			path = YERACDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B49569D91E52A02B006BE5ED /* YERACDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4956A0A1E52A02B006BE5ED /* Build configuration list for PBXNativeTarget "YERACDemo" */;
+			buildPhases = (
+				B49569D61E52A02B006BE5ED /* Sources */,
+				B49569D71E52A02B006BE5ED /* Frameworks */,
+				B49569D81E52A02B006BE5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YERACDemo;
+			productName = YERACDemo;
+			productReference = B49569DA1E52A02B006BE5ED /* YERACDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B49569F51E52A02B006BE5ED /* YERACDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4956A0D1E52A02B006BE5ED /* Build configuration list for PBXNativeTarget "YERACDemoTests" */;
+			buildPhases = (
+				B49569F21E52A02B006BE5ED /* Sources */,
+				B49569F31E52A02B006BE5ED /* Frameworks */,
+				B49569F41E52A02B006BE5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49569F81E52A02B006BE5ED /* PBXTargetDependency */,
+			);
+			name = YERACDemoTests;
+			productName = YERACDemoTests;
+			productReference = B49569F61E52A02B006BE5ED /* YERACDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4956A001E52A02B006BE5ED /* YERACDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4956A101E52A02B006BE5ED /* Build configuration list for PBXNativeTarget "YERACDemoUITests" */;
+			buildPhases = (
+				B49569FD1E52A02B006BE5ED /* Sources */,
+				B49569FE1E52A02B006BE5ED /* Frameworks */,
+				B49569FF1E52A02B006BE5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4956A031E52A02B006BE5ED /* PBXTargetDependency */,
+			);
+			name = YERACDemoUITests;
+			productName = YERACDemoUITests;
+			productReference = B4956A011E52A02B006BE5ED /* YERACDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B49569D21E52A02B006BE5ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yongen;
+				TargetAttributes = {
+					B49569D91E52A02B006BE5ED = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					B49569F51E52A02B006BE5ED = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B49569D91E52A02B006BE5ED;
+					};
+					B4956A001E52A02B006BE5ED = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B49569D91E52A02B006BE5ED;
+					};
+				};
+			};
+			buildConfigurationList = B49569D51E52A02B006BE5ED /* Build configuration list for PBXProject "YERACDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B49569D11E52A02B006BE5ED;
+			productRefGroup = B49569DB1E52A02B006BE5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B49569D91E52A02B006BE5ED /* YERACDemo */,
+				B49569F51E52A02B006BE5ED /* YERACDemoTests */,
+				B4956A001E52A02B006BE5ED /* YERACDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B49569D81E52A02B006BE5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49569F01E52A02B006BE5ED /* LaunchScreen.storyboard in Resources */,
+				B49569ED1E52A02B006BE5ED /* Assets.xcassets in Resources */,
+				B49569E81E52A02B006BE5ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49569F41E52A02B006BE5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49569FF1E52A02B006BE5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B49569D61E52A02B006BE5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49569E51E52A02B006BE5ED /* ViewController.m in Sources */,
+				B49569E21E52A02B006BE5ED /* AppDelegate.m in Sources */,
+				B49569DF1E52A02B006BE5ED /* main.m in Sources */,
+				B49569EB1E52A02B006BE5ED /* YERACDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49569F21E52A02B006BE5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49569FB1E52A02B006BE5ED /* YERACDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49569FD1E52A02B006BE5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4956A061E52A02B006BE5ED /* YERACDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B49569F81E52A02B006BE5ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B49569D91E52A02B006BE5ED /* YERACDemo */;
+			targetProxy = B49569F71E52A02B006BE5ED /* PBXContainerItemProxy */;
+		};
+		B4956A031E52A02B006BE5ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B49569D91E52A02B006BE5ED /* YERACDemo */;
+			targetProxy = B4956A021E52A02B006BE5ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B49569E61E52A02B006BE5ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B49569E71E52A02B006BE5ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B49569EE1E52A02B006BE5ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B49569EF1E52A02B006BE5ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4956A081E52A02B006BE5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4956A091E52A02B006BE5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4956A0B1E52A02B006BE5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YERACDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YERACDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4956A0C1E52A02B006BE5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YERACDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YERACDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4956A0E1E52A02B006BE5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YERACDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YERACDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YERACDemo.app/YERACDemo";
+			};
+			name = Debug;
+		};
+		B4956A0F1E52A02B006BE5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YERACDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YERACDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YERACDemo.app/YERACDemo";
+			};
+			name = Release;
+		};
+		B4956A111E52A02B006BE5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YERACDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YERACDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YERACDemo;
+			};
+			name = Debug;
+		};
+		B4956A121E52A02B006BE5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YERACDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yongen.YERACDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YERACDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B49569D51E52A02B006BE5ED /* Build configuration list for PBXProject "YERACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4956A081E52A02B006BE5ED /* Debug */,
+				B4956A091E52A02B006BE5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4956A0A1E52A02B006BE5ED /* Build configuration list for PBXNativeTarget "YERACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4956A0B1E52A02B006BE5ED /* Debug */,
+				B4956A0C1E52A02B006BE5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4956A0D1E52A02B006BE5ED /* Build configuration list for PBXNativeTarget "YERACDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4956A0E1E52A02B006BE5ED /* Debug */,
+				B4956A0F1E52A02B006BE5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4956A101E52A02B006BE5ED /* Build configuration list for PBXNativeTarget "YERACDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4956A111E52A02B006BE5ED /* Debug */,
+				B4956A121E52A02B006BE5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B49569E91E52A02B006BE5ED /* YERACDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B49569EA1E52A02B006BE5ED /* YERACDemo.xcdatamodel */,
+			);
+			currentVersion = B49569EA1E52A02B006BE5ED /* YERACDemo.xcdatamodel */;
+			path = YERACDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B49569D21E52A02B006BE5ED /* Project object */;
+}
